@@ -1,0 +1,12 @@
+{
+  "classdetails": [
+    {
+      "class": "testcases.snov.Session",
+      "methods": ["doLogin"]
+    },
+	{
+      "class": "testcases.snov.LeadManagement",
+      "methods": ["createLead","verifyLead","deleteLead"]
+    }
+  ]
+}

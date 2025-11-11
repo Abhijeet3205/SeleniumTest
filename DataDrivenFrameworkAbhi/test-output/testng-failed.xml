@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Deals Suite]">
+  <listeners>
+    <listener class-name="listener.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Create Deal - Create New DealIt.1(failed)">
+    <parameter name="datafilePath" value="C:\Users\ABC\eclipse-workspace-one\DataDrivenFrameworkAbhi\src\test\resources\jsons\xls_data\excelForTesting.xlsx"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="action" value="createdeal"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="suitename" value="DealsSuite"/>
+    <parameter name="dataflag" value="createnewdeal"/>
+    <classes>
+      <class name="testcases.snov.LeadManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="createLead"/>
+          <include name="quit"/>
+          <include name="verifyLead"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.snov.LeadManagement -->
+      <class name="testcases.snov.Session">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- testcases.snov.Session -->
+    </classes>
+  </test> <!-- Create Deal - Create New DealIt.1(failed) -->
+  <test thread-count="5" name="Create Deal - Create New DealIt.2(failed)">
+    <parameter name="datafilePath" value="C:\Users\ABC\eclipse-workspace-one\DataDrivenFrameworkAbhi\src\test\resources\jsons\xls_data\excelForTesting.xlsx"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="action" value="createdeal"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="suitename" value="DealsSuite"/>
+    <parameter name="dataflag" value="createnewdeal"/>
+    <classes>
+      <class name="testcases.snov.LeadManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="createLead" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.snov.LeadManagement -->
+    </classes>
+  </test> <!-- Create Deal - Create New DealIt.2(failed) -->
+  <test thread-count="5" name="Delete Deal - Delete Existing DealIt.1(failed)">
+    <parameter name="datafilePath" value="C:\Users\ABC\eclipse-workspace-one\DataDrivenFrameworkAbhi\src\test\resources\jsons\xls_data\excelForTesting.xlsx"/>
+    <parameter name="action" value="deletedeal"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="suitename" value="DealsSuite"/>
+    <parameter name="dataflag" value="deletedeal"/>
+    <classes>
+      <class name="testcases.snov.LeadManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="deleteLead"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.snov.LeadManagement -->
+      <class name="testcases.snov.Session">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- testcases.snov.Session -->
+    </classes>
+  </test> <!-- Delete Deal - Delete Existing DealIt.1(failed) -->
+</suite> <!-- Failed suite [Deals Suite] -->

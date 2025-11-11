@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Deals Suite">
+<listeners>
+	<listener class-name="listener.MyTestNGListener"></listener>
+  </listeners>
+  <test name="Create Deal Test">
+    <classes>
+    <class name="testcases.snov.Session">
+    	<methods>
+    		<include name="doLogin"></include>
+    	</methods>
+    </class>
+      <class name="testcases.snov.LeadManagement">
+      	<methods>
+    		<include name="createLead"></include>
+    		<include name="verifyLead"></include>
+    	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+     <!-- Test -->
+</suite> <!-- Suite -->

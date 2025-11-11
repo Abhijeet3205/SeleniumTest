@@ -1,0 +1,38 @@
+{
+  "testdata": [
+    {
+      "flag": "createnewdeal",
+      "data": [
+        {
+          "currency": "inr",
+          "value": "100",
+          "prospectname": "deal11",
+          "email": "email1@gmail.com",
+          "prospectlist": "Prospect1",
+          "runmode": "Y"
+        },
+        {
+          "currency": "usd",
+          "value": "100",
+          "prospectname": "deal33",
+          "email": "email1@gmail.com",
+          "prospectlist": "Prospect1",
+          "runmode": "Y"
+        }
+      ]
+    },
+    {
+      "flag": "deletedeal",
+      "data": [
+        {
+          "prospectname": "deal22",
+          "runmode": "Y"
+        },
+        {
+          "prospectname": "deal22",
+          "runmode": "Y"
+        }
+      ]
+    }
+  ]
+}
