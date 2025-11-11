@@ -1,0 +1,15 @@
+{
+  "browsers": [
+    "Chrome,Firefox"
+  ],
+  "parallelsuites": "1",
+  "testsuites": [
+    {
+      "runmode": "Y",
+      "name": "Deals Suite",
+      "testdatajsonfile": "data\\dealsdata.json",
+      "suitfilename": "suites\\dealssuite.json",
+      "paralleltests": "N"
+    }
+  ]
+}

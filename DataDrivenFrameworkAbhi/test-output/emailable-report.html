@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Deals Suite</th></tr>
+<tr><td><a href="#t0">Create Deal - Create New DealIt.1</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">272</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Create Deal - Create New DealIt.2</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">52,411</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Delete Deal - Delete Existing DealIt.1</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">35</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Delete Deal - Delete Existing DealIt.2</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">746</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num attn">5</th><th class="num">0</th><th class="num attn">1</th><th class="num">53,464</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Deals Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Create Deal - Create New DealIt.1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">testcases.snov.Session</td><td><a href="#m0">beforeTest</a></td><td rowspan="1">1758629667127</td><td rowspan="1">238</td></tr><tr class="failedeven"><td><a href="#m1">quit</a></td><td rowspan="1">1758629667391</td><td rowspan="1">0</td></tr><tr><th colspan="4">Create Deal - Create New DealIt.1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">testcases.snov.LeadManagement</td><td><a href="#m2">createLead</a></td><td rowspan="1">1758629667388</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">verifyLead</a></td><td rowspan="1">1758629667390</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">testcases.snov.Session</td><td><a href="#m4">doLogin</a></td><td rowspan="1">1758629667384</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Create Deal - Create New DealIt.2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.snov.LeadManagement</td><td><a href="#m5">createLead</a></td><td rowspan="1">1758629669198</td><td rowspan="1">50314</td></tr><tr><th colspan="4">Create Deal - Create New DealIt.2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.snov.LeadManagement</td><td><a href="#m6">verifyLead</a></td><td rowspan="1">1758629719516</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">testcases.snov.Session</td><td><a href="#m7">doLogin</a></td><td rowspan="1">1758629667464</td><td rowspan="1">1731</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Delete Deal - Delete Existing DealIt.1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">testcases.snov.Session</td><td><a href="#m8">beforeTest</a></td><td rowspan="1">1758629719841</td><td rowspan="1">23</td></tr><tr class="failedeven"><td><a href="#m9">quit</a></td><td rowspan="1">1758629719874</td><td rowspan="1">2</td></tr><tr><th colspan="4">Delete Deal - Delete Existing DealIt.1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.snov.LeadManagement</td><td><a href="#m10">deleteLead</a></td><td rowspan="1">1758629719871</td><td rowspan="1">1</td></tr><tr class="skippedodd"><td rowspan="1">testcases.snov.Session</td><td><a href="#m11">doLogin</a></td><td rowspan="1">1758629719866</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Delete Deal - Delete Existing DealIt.2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.snov.LeadManagement</td><td><a href="#m12">deleteLead</a></td><td rowspan="1">1758629720335</td><td rowspan="1">262</td></tr><tr class="passedodd"><td rowspan="1">testcases.snov.Session</td><td><a href="#m13">doLogin</a></td><td rowspan="1">1758629719908</td><td rowspan="1">426</td></tr></tbody>
+</table>
+<h2>Create Deal - Create New DealIt.1</h2><h3 id="m0">testcases.snov.Session#beforeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@40dff0b7</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;runmode&quot; is null
+	at testbase.BaseTest.beforeTest(BaseTest.java:61)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.snov.Session#quit</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@40dff0b7</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at keywords.GenericKeywords.quit(GenericKeywords.java:342)
+	at testbase.BaseTest.quit(BaseTest.java:88)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.snov.LeadManagement#createLead</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@40dff0b7</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;runmode&quot; is null
+	at testbase.BaseTest.beforeTest(BaseTest.java:61)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.snov.LeadManagement#verifyLead</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;runmode&quot; is null
+	at testbase.BaseTest.beforeTest(BaseTest.java:61)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.snov.Session#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@40dff0b7</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;runmode&quot; is null
+	at testbase.BaseTest.beforeTest(BaseTest.java:61)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create Deal - Create New DealIt.2</h2><h3 id="m5">testcases.snov.LeadManagement#createLead</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@6fc29daa</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.128)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b979222b9a8e1630eb762d829b6a99a, findElement {value=//input[@placeholder=&apos;johnsmith@example.com&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: 127.0.0.1:9090}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), se:cdp: ws://127.0.0.1:9090/devtool..., se:cdpVersion: 140.0.7339.128, setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b979222b9a8e1630eb762d829b6a99a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at keywords.GenericKeywords.getElement(GenericKeywords.java:154)
+	at keywords.GenericKeywords.clearText(GenericKeywords.java:104)
+	at testcases.snov.LeadManagement.createLead(LeadManagement.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.snov.LeadManagement#verifyLead</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.snov.Session#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@6fc29daa</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Delete Deal - Delete Existing DealIt.1</h2><h3 id="m8">testcases.snov.Session#beforeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@688d411b</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;runmode&quot; is null
+	at testbase.BaseTest.beforeTest(BaseTest.java:61)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.snov.Session#quit</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@688d411b</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at keywords.GenericKeywords.quit(GenericKeywords.java:342)
+	at testbase.BaseTest.quit(BaseTest.java:88)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.snov.LeadManagement#deleteLead</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@688d411b</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;runmode&quot; is null
+	at testbase.BaseTest.beforeTest(BaseTest.java:61)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.snov.Session#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@688d411b</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;runmode&quot; is null
+	at testbase.BaseTest.beforeTest(BaseTest.java:61)
+	at runner.TestNGRunner.run(TestNGRunner.java:82)
+	at runner.JSONRunner.main(JSONRunner.java:109)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Delete Deal - Delete Existing DealIt.2</h2><h3 id="m12">testcases.snov.LeadManagement#deleteLead</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@2c7a8af2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testcases.snov.Session#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@2c7a8af2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
